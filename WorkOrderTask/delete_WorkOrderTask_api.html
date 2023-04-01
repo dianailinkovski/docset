@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Delete WorkOrderTask Api - CMMS Api Doc</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Delete WorkOrderTask Api";
+    var mkdocs_page_input_path = "WorkOrderTask\\delete_WorkOrderTask_api.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../index.html" class="icon icon-home"> CMMS Api Doc</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../index.html">Account</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Asset/index.html">Asset</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetBusiness/index.html">AssetBusiness</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetCategory/index.html">AssetCategory</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetConsumingReference/index.html">AssetConsumingReference</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetEvent/index.html">AssetEvent</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetEventType/index.html">AssetEventType</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetOfflineTracker/index.html">AssetOfflineTracker</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../AssetUser/index.html">AssetUser</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../BillingTerm/index.html">BillingTerm</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Business/index.html">Business</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../BusinessGroup/index.html">BusinessGroup</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../CalendarEvent/index.html">CalendarEvent</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ChargeDepartment/index.html">ChargeDepartment</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../File/index.html">File</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../FileContents/index.html">FileContents</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MaintenanceType/index.html">MaintenanceType</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MeterReading/index.html">MeterReading</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MeterReadingUnit/index.html">MeterReadingUnit</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Move/index.html">Move</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveAsset/index.html">MoveAsset</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveBack/index.html">MoveBack</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveBackAsset/index.html">MoveBackAsset</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../MoveStatus/index.html">MoveStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Priority/index.html">Priority</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Project/index.html">Project</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../PurchaseOrder/index.html">PurchaseOrder</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../PurchaseOrderLineItem/index.html">PurchaseOrderLineItem</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../PurchaseOrderStatus/index.html">PurchaseOrderStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ReasonToSetAssetOffline/index.html">ReasonToSetAssetOffline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ReasonToSetAssetOnline/index.html">ReasonToSetAssetOnline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../Receipt/index.html">Receipt</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ReceiptLineItem/index.html">ReceiptLineItem</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ReceiptStatus/index.html">ReceiptStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ReportsToResolved/index.html">ReportsToResolved</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduledMaintenance/index.html">ScheduledMaintenance</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduledMaintenanceAsset/index.html">ScheduledMaintenanceAsset</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduledMaintenancePart/index.html">ScheduledMaintenancePart</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduledMaintenanceUser/index.html">ScheduledMaintenanceUser</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduleTrigger/index.html">ScheduleTrigger</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../ScheduledTask/index.html">ScheduledTask</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../SiteUser/index.html">SiteUser</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../SiteUserGroup/index.html">SiteUserGroup</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../User/index.html">User</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrder/index.html">WorkOrder</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderAsset/index.html">WorkOrderAsset</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderBusiness/index.html">WorkOrderBusiness</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderPart/index.html">WorkOrderPart</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderStatus/index.html">WorkOrderStatus</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderStatusTransition/index.html">WorkOrderStatusTransition</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="index.html">WorkOrderTask</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../WorkOrderUser/index.html">WorkOrderUser</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">CMMS Api Doc</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Delete WorkOrderTask Api</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="delete-workordertask-api">Delete WorkOrderTask Api</h1>
+<p>Delete a WorkOrderTask by Id</p>
+<p><strong>URL</strong> : <code>/api/workordertask/:Id</code></p>
+<p><strong>Method</strong> : <code>DELETE</code></p>
+<p><strong>Auth required</strong> : <code>YES</code></p>
+<p><strong>Header</strong> : <code>Authorization:{jwt-token}</code></p>
+<p><strong>URL Parameters</strong> :  An integer that uniquely identifies the WorkOrderTask.</p>
+<h2 id="success-response">Success Response</h2>
+<p><strong>Code</strong> : <code>200 success</code></p>
+<p><strong>Resonse example</strong></p>
+<pre><code class="json">{
+    &quot;msg&quot;: &quot;Deleted successfully!&quot;,
+    data: null
+}
+</code></pre>
+
+<h2 id="error-responses">Error Responses</h2>
+<p><strong>Code</strong> : <code>401 Unauthorized</code></p>
+<p><strong>Condition</strong> : Missing or incorrect authentication credentials and expired one.</p>
+<p><strong>Resonse example</strong></p>
+<pre><code class="json">{
+    &quot;msg&quot;: &quot;JWT token varified failed!&quot;,
+    &quot;data&quot;:null
+}
+</code></pre>
+
+<pre><code class="json">{
+    &quot;msg&quot;: &quot;JWT token expired!&quot;,
+    &quot;data&quot;:null
+}
+</code></pre>
+
+<p><strong>Condition</strong> : If there was no asset available to delete.</p>
+<p><strong>Code</strong> : <code>400 BAD REQUEST</code></p>
+<p><strong>Content example</strong></p>
+<pre><code class="json">{
+    &quot;msg&quot;: &quot;Delete failed&quot;,
+    &quot;data&quot;:null
+}
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
